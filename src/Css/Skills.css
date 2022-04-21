@@ -1,0 +1,23 @@
+.Skills{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../public/skills.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Skills>h1{
+   margin-left: 6rem; 
+   font-size: 7rem;
+}
+
+.Skills>div{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+}

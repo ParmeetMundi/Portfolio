@@ -1,0 +1,25 @@
+.Navbar{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    background-color: rgba(77, 72, 72,0.7);
+    z-index: 1;
+    
+}
+
+.Navbar >a{
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links{
+    height: auto;
+    width: 3.5vw;
+    float: right;
+    margin: 1rem;
+    margin-right: 2rem;
+}
+

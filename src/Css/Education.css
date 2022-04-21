@@ -1,0 +1,87 @@
+.Education{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(103, 115, 119);
+    clip-path: polygon(50% 0%, 100% 25%, 90% 100%, 11% 100%, 0 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../public/education.webp);
+    background-size: cover;
+}
+
+.Education > p{
+    font-family: 'Lobster Two', cursive;
+    font-size: 7rem;
+}
+.education_window{
+    height: 60vh;
+    width: 50vw;
+   
+    overflow-y: scroll;
+    animation: window_dance 4s infinite ease;
+}
+
+
+.education_window::-webkit-scrollbar {
+    width: 2rem;
+  }
+  
+  
+  .education_window::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 .5rem grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .education_window::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 1rem;
+  }
+  
+  /* Handle on hover */
+  .education_window::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
+@keyframes window_dance{
+    0%{
+        transform:skewY(2deg);
+    }
+    50%{
+        transform:skewY(-2deg);
+    }
+    100%{
+        transform:skewY(2deg);
+    }
+}
+
+.inner_education_window{
+    height: 100%;
+    width: 100%; 
+    background-size: 100% 100%;
+    font-family: 'Lobster Two', cursive;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 1rem solid rgba(0,0,0, 0.5);
+}
+
+.inner_education_window > span{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.education_image1{
+    background-image: url('../../public/thapar.webp');
+}
+.education_image2{
+    background-image: url('../../public/ggps.webp');
+}
