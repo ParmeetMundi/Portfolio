@@ -26,13 +26,11 @@
     display: flex;
     width: 100vw;
     height: 80vh;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around; 
     background-color: rgba(0, 0,0,0.7);
 }
 
-.Skills>div>ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.Skills>div>li{
+    margin:2rem;
 }

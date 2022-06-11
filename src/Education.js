@@ -13,7 +13,7 @@ const Education = () => {
         <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 eduImg"
       src="thapar.webp"
       alt="First slide"
     />
@@ -27,7 +27,7 @@ const Education = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 eduImg"
       src="ggps.webp"
       alt="Second slide"
     />
@@ -41,7 +41,7 @@ const Education = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 eduImg"
       src="ggps.webp"
       alt="Third slide"
     />

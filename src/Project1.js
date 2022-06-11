@@ -27,7 +27,7 @@ const Project1 = () => {
        
   </Carousel.Item>
   <Carousel.Item>
-      
+     
        <div class='project_window'>
        <img src='memes.webp'/>
        <ul>

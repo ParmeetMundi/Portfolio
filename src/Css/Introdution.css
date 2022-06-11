@@ -2,7 +2,7 @@
 
     height: 100vh;
     width: 100vw;
-    animation: bg_color 5s infinite;
+    /* animation: bg_color 4s infinite; */
     background-blend-mode: luminosity;
     background-image: url(../../public/insta\ photo.webp);
     background-size:cover;
@@ -19,12 +19,12 @@
 
 .intro_text_head{
   color:brown;
-  animation: slide_text 5s;
+  animation: slide_text 3s;
  
 }
 .intro_text_body{
     color: white;
-    animation: slide_text 5s; 
+    animation: slide_text 3s; 
     font-size: 4rem;
     margin: 1rem;
   }
@@ -38,18 +38,8 @@
   visibility: hidden;
 }
 
-@keyframes slide_swipe{
-  0%{
-     transform: translatey(0);
-     visibility: visible;
-  }
-  100%{
-    transform: translatey(-2rem);
-    visibility: visible;
-  }
-}
 
-@keyframes slide_text{
+/* @keyframes slide_text{
     from{
          margin-left: -100%;
          
@@ -58,37 +48,7 @@
          margin-left: 0%;
          
     }
-}
-
-@keyframes rotate_text{
-   
-  0%{
-    transform: rotate(0);
-  }
-  50%{
-    transform: rotate(3deg);
-  }
-  100%{
-    transform: rotate(0deg);
-  }
-  
-}
-
-@keyframes rotate_text_body{
-   
-  0%{
-    transform: rotate(0);
-  }
-  50%{
-    transform: rotate(-3deg);
-  }
-  100%{
-    transform: rotate(0deg);
-  }
-  
-}
-
-
+} */
 
 @keyframes bg_color{
      0%{
