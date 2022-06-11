@@ -19,12 +19,12 @@
 
 .intro_text_head{
   color:brown;
-  animation: slide_text 5s,rotate_text 3s infinite ease;
+  animation: slide_text 5s;
  
 }
 .intro_text_body{
     color: white;
-    animation: slide_text 5s,rotate_text_body 3s infinite ease;
+    animation: slide_text 5s; 
     font-size: 4rem;
     margin: 1rem;
   }
@@ -34,7 +34,7 @@
   width: 6rem;
   height:auto;
   margin-top: 4rem;
-  animation: slide_swipe 2s infinite 4s;
+  /* animation: slide_swipe 2s infinite 4s; */
   visibility: hidden;
 }
 

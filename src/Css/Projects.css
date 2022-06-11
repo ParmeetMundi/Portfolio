@@ -7,21 +7,15 @@
     font-family: 'Lobster Two', cursive;
     font-size: 7rem;
     flex-direction: column;
-}
-.AwesomeSlider{
-    height: 60vh;
-    width: 80vw;
-    margin: 3rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 .Projects > p{
     margin: 0;
 }
-.wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+a{
+    text-decoration: none !important;
 }
 
 .project_window{

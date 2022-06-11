@@ -1,23 +1,38 @@
 .Skills{
     height: 100vh;
     width: 100vw;
-    background-image: url(../../public/skills.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('../../public/skills.webp');
+    background-color: white;
     font-family: 'Lobster Two', cursive;
     font-size: 3rem;
     color: black;
     display: flex;
     flex-direction: column;
+    color: white;
+    justify-content: space-around;
 }
 
 .Skills>h1{
-   margin-left: 6rem; 
    font-size: 7rem;
+   background-color:rgba(0, 0,0,0.7) ;
+    width: 100vw;
+    height: 20vh;
+    margin: 0;
+    text-align: center;
 }
 
 .Skills>div{
     padding: 4rem;
     display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0,0,0.7);
+}
+
+.Skills>div>ul{
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
