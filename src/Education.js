@@ -20,7 +20,7 @@ const Education = () => {
     <Carousel.Caption className='CarouselSpan'>
                 <span > Thapar Institute of Engineering and Technology<br/>
                  Branch: Computer Engineering<br/>
-                 CGPA: 9.60<br/>
+                 CGPA: 9.49<br/>
                  2019-2023
      </span>
     </Carousel.Caption>
